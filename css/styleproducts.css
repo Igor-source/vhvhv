@@ -1,0 +1,27 @@
+.catalog{
+    margin: 20px auto;
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.catalog_title{
+    text-align: center;
+}
+.catalog_title p{
+    padding: 10px 0;
+}
+.catalog_products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    grid-row-gap: 20px;
+}
+.item{
+    text-align: center;
+}
+.item h4{
+    width: 50%;
+    margin: 10px auto;
+    color: rgb(22, 25, 26);
+    font-style: italic;
+}
